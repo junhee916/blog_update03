@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-08T06:56:54.124Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="mug9ZIkt_3G7SjI63zNq" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-08T09:56:32.291Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="GLsNyrBmRuEKnR9dxvnj" version="14.7.6" type="github">
   <diagram id="AyV75isDo_8azT4k6Xjb" name="Page-1">
-    <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -193,23 +193,126 @@
         <mxCell id="QS6sScq16oVGHTHTS8OC-8" value="&lt;b&gt;가로모드일 때만 적용&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="185" y="870" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="U4054JoAznHOPnffeyLD-1" value="&lt;b&gt;this.engineCore&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="U4054JoAznHOPnffeyLD-1" value="&lt;b&gt;this.engineCore&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="605" y="960" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="U4054JoAznHOPnffeyLD-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U4054JoAznHOPnffeyLD-3" target="U4054JoAznHOPnffeyLD-1">
+        <mxCell id="U4054JoAznHOPnffeyLD-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="U4054JoAznHOPnffeyLD-3" target="U4054JoAznHOPnffeyLD-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="U4054JoAznHOPnffeyLD-3" value="&lt;h1&gt;페이지전환&lt;/h1&gt;&lt;p&gt;scroll과 마찬가지로 engineCore을적용했는데 data를 사용하지를 못함&amp;nbsp;&lt;/p&gt;&lt;p&gt;(setPageMode)&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="U4054JoAznHOPnffeyLD-3" value="&lt;h1&gt;페이지전환&lt;/h1&gt;&lt;p&gt;scroll과 마찬가지로 engineCore을적용했는데 data를 사용하지를 못함&amp;nbsp;&lt;/p&gt;&lt;p&gt;(setPageMode)&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="577" y="1050" width="213" height="111" as="geometry" />
         </mxCell>
-        <mxCell id="U4054JoAznHOPnffeyLD-5" value="&lt;b&gt;NextBtn&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="U4054JoAznHOPnffeyLD-5" value="&lt;b&gt;NextBtn&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="35" y="1210" width="95" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="U4054JoAznHOPnffeyLD-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="U4054JoAznHOPnffeyLD-6" target="U4054JoAznHOPnffeyLD-5">
+        <mxCell id="U4054JoAznHOPnffeyLD-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="U4054JoAznHOPnffeyLD-6" target="U4054JoAznHOPnffeyLD-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="U4054JoAznHOPnffeyLD-6" value="&lt;b&gt;$(&#39;.epubViewBottom, .nextBtn&#39;)&lt;br&gt;&lt;br&gt;css 위치 연관성있는 지 확인&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="U4054JoAznHOPnffeyLD-6" value="&lt;b&gt;$(&#39;.epubViewBottom, .nextBtn&#39;)&lt;br&gt;&lt;br&gt;css 위치 연관성있는 지 확인&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="1200" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qaIy9QlNrCQ5mcXptBQy-3" value="&lt;b&gt;ScrollWheel&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="35" y="1290" width="95" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qaIy9QlNrCQ5mcXptBQy-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qaIy9QlNrCQ5mcXptBQy-4" target="qaIy9QlNrCQ5mcXptBQy-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qaIy9QlNrCQ5mcXptBQy-4" value="&lt;h1&gt;ScrollWheel&amp;nbsp;&lt;/h1&gt;&lt;p&gt;기본적인 scroll은 y축인데 x기준으로 넘어갈 수 있는 지 확인&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="185" y="1290" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="qaIy9QlNrCQ5mcXptBQy-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="qaIy9QlNrCQ5mcXptBQy-7" target="qaIy9QlNrCQ5mcXptBQy-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qaIy9QlNrCQ5mcXptBQy-7" value="&lt;b&gt;scroll_Page&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1540" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qaIy9QlNrCQ5mcXptBQy-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qaIy9QlNrCQ5mcXptBQy-10" target="qaIy9QlNrCQ5mcXptBQy-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qaIy9QlNrCQ5mcXptBQy-10" value="&lt;b&gt;window hight 기준으로 짤리면서 페이지가 넘어간다고하는데 제대로 처리되는 지 확인&amp;nbsp;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="185" y="1540" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qaIy9QlNrCQ5mcXptBQy-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="qaIy9QlNrCQ5mcXptBQy-12" target="qaIy9QlNrCQ5mcXptBQy-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qaIy9QlNrCQ5mcXptBQy-12" value="&lt;b&gt;bResizing&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1690" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qaIy9QlNrCQ5mcXptBQy-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qaIy9QlNrCQ5mcXptBQy-14" target="qaIy9QlNrCQ5mcXptBQy-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qaIy9QlNrCQ5mcXptBQy-14" value="&lt;b&gt;resizeEnd가 처리가 제대로 되었을 때 false가 되는 것임으로 연관성 파악&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1690" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qaIy9QlNrCQ5mcXptBQy-16" value="&lt;b&gt;mousewheel&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1420" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qaIy9QlNrCQ5mcXptBQy-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qaIy9QlNrCQ5mcXptBQy-18" target="qaIy9QlNrCQ5mcXptBQy-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qaIy9QlNrCQ5mcXptBQy-18" value="&lt;b&gt;방향키로 조작&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1320" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qaIy9QlNrCQ5mcXptBQy-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qaIy9QlNrCQ5mcXptBQy-20" target="qaIy9QlNrCQ5mcXptBQy-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qaIy9QlNrCQ5mcXptBQy-20" value="&lt;b&gt;setScrollModeAction&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="610" y="1405" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qaIy9QlNrCQ5mcXptBQy-22" value="&lt;b&gt;참고&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="1405" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qaIy9QlNrCQ5mcXptBQy-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qaIy9QlNrCQ5mcXptBQy-23" target="qaIy9QlNrCQ5mcXptBQy-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qaIy9QlNrCQ5mcXptBQy-23" value="&lt;b&gt;setTwoPageMode&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="435" y="1410" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qaIy9QlNrCQ5mcXptBQy-27" value="&lt;b&gt;contents.json&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="435" y="1490" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qaIy9QlNrCQ5mcXptBQy-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qaIy9QlNrCQ5mcXptBQy-28" target="qaIy9QlNrCQ5mcXptBQy-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qaIy9QlNrCQ5mcXptBQy-28" value="&lt;b&gt;DataCallback&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="1">
+          <mxGeometry x="435" y="1580" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qaIy9QlNrCQ5mcXptBQy-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qaIy9QlNrCQ5mcXptBQy-29" target="qaIy9QlNrCQ5mcXptBQy-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="684" y="1605" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qaIy9QlNrCQ5mcXptBQy-29" value="&lt;b&gt;direction : &quot;ltr&quot;&lt;br&gt;ㄴ epub data direction을 의미&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="591" y="1490" width="185" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qaIy9QlNrCQ5mcXptBQy-33" value="&lt;b&gt;this.g_nextBtn.on&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="435" y="1670" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qaIy9QlNrCQ5mcXptBQy-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qaIy9QlNrCQ5mcXptBQy-34" target="qaIy9QlNrCQ5mcXptBQy-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qaIy9QlNrCQ5mcXptBQy-34" value="&lt;b&gt;이동조작 keyPoint&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="627" y="1665" width="133" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qaIy9QlNrCQ5mcXptBQy-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qaIy9QlNrCQ5mcXptBQy-36" target="qaIy9QlNrCQ5mcXptBQy-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qaIy9QlNrCQ5mcXptBQy-36" value="&lt;b&gt;epubViewBottomLayer&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1810" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qaIy9QlNrCQ5mcXptBQy-37" value="&lt;h1&gt;BottomScroll&lt;/h1&gt;&lt;p&gt;현재 클라이언트가 독서한 페이지 관련 수를 볼 수 있고 이동도 가능하다.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="1785" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="qaIy9QlNrCQ5mcXptBQy-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="qaIy9QlNrCQ5mcXptBQy-39" target="qaIy9QlNrCQ5mcXptBQy-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qaIy9QlNrCQ5mcXptBQy-39" value="&lt;b&gt;여기서 추론할 수 있는 것은 epubViewBottomLayer안에 a태그 클래스로해서 prevBtn에 해당되는 img 가 있었다는 것을 확인할 수 있다.&amp;nbsp;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1900" width="290" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qaIy9QlNrCQ5mcXptBQy-42" value="&lt;b&gt;prevBtn a테그에 이미지를 복구&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="200" y="2000" width="200" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
