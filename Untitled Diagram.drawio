@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-08T06:42:53.617Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="mhwojbaB-VUhMWmNftJO" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-08T06:56:54.124Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="mug9ZIkt_3G7SjI63zNq" version="14.7.6" type="github">
   <diagram id="AyV75isDo_8azT4k6Xjb" name="Page-1">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -201,6 +201,15 @@
         </mxCell>
         <mxCell id="U4054JoAznHOPnffeyLD-3" value="&lt;h1&gt;페이지전환&lt;/h1&gt;&lt;p&gt;scroll과 마찬가지로 engineCore을적용했는데 data를 사용하지를 못함&amp;nbsp;&lt;/p&gt;&lt;p&gt;(setPageMode)&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="577" y="1050" width="213" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="U4054JoAznHOPnffeyLD-5" value="&lt;b&gt;NextBtn&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="35" y="1210" width="95" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U4054JoAznHOPnffeyLD-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="U4054JoAznHOPnffeyLD-6" target="U4054JoAznHOPnffeyLD-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U4054JoAznHOPnffeyLD-6" value="&lt;b&gt;$(&#39;.epubViewBottom, .nextBtn&#39;)&lt;br&gt;&lt;br&gt;css 위치 연관성있는 지 확인&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1200" width="220" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
