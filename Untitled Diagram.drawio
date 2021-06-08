@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-08T04:32:53.361Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="2vwe473aCQaGn-JnC-XD" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-08T05:19:40.571Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="g5clDfWQK4C-J5YH74gN" version="14.7.6" type="github">
   <diagram id="AyV75isDo_8azT4k6Xjb" name="Page-1">
-    <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -112,8 +112,47 @@
         <mxCell id="EiQ2DiT3cJEXJJtgzBad-33" value="&lt;b&gt;viewer.js&lt;br&gt;ㄴ 클릭했을 때 어떻게 화면을 구성하게 하고 넘어가게 하는 지가 keypoint&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="597" y="420" width="163" height="105" as="geometry" />
         </mxCell>
+        <mxCell id="EiQ2DiT3cJEXJJtgzBad-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EiQ2DiT3cJEXJJtgzBad-35" target="EiQ2DiT3cJEXJJtgzBad-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="EiQ2DiT3cJEXJJtgzBad-35" value="&lt;b&gt;Viewer.aspx/viewPageCnt&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="360" y="420" width="169" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EiQ2DiT3cJEXJJtgzBad-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EiQ2DiT3cJEXJJtgzBad-39" target="EiQ2DiT3cJEXJJtgzBad-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EiQ2DiT3cJEXJJtgzBad-39" value="&lt;b&gt;menuLayer&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="384.5" y="520" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="EiQ2DiT3cJEXJJtgzBad-40" value="&lt;h1&gt;Data 전송 오류&lt;/h1&gt;&lt;p&gt;지금 이 부분에 data 표시는 나오지만 제대로 전달되지 못해서 가로모드일 때 data가 처리 안되는 것을 확인 .&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="550" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="EiQ2DiT3cJEXJJtgzBad-43" value="&lt;b&gt;engineCore&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="16" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EiQ2DiT3cJEXJJtgzBad-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EiQ2DiT3cJEXJJtgzBad-44" target="EiQ2DiT3cJEXJJtgzBad-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EiQ2DiT3cJEXJJtgzBad-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="EiQ2DiT3cJEXJJtgzBad-44" target="EiQ2DiT3cJEXJJtgzBad-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EiQ2DiT3cJEXJJtgzBad-44" value="&lt;h1&gt;engineCore&lt;/h1&gt;&lt;div&gt;engineCore은 작동하기 위해 필요할 뿐이지 현재 move 관련해서는 수정할 부분이 없다.&amp;nbsp;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="175" y="650" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="EiQ2DiT3cJEXJJtgzBad-46" value="&lt;b&gt;slider&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="20" y="790" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EiQ2DiT3cJEXJJtgzBad-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EiQ2DiT3cJEXJJtgzBad-48" target="EiQ2DiT3cJEXJJtgzBad-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EiQ2DiT3cJEXJJtgzBad-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="EiQ2DiT3cJEXJJtgzBad-48" target="EiQ2DiT3cJEXJJtgzBad-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EiQ2DiT3cJEXJJtgzBad-48" value="&lt;b&gt;*step을 사용할 경우 증감 간격을 의미&lt;br&gt;*max을 사용할 경우&amp;nbsp;최댓값 설정&amp;nbsp;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="135" y="780" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EiQ2DiT3cJEXJJtgzBad-53" value="&lt;b&gt;err 해결 방안&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="670" y="680" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
