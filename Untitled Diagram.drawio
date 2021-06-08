@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2021-06-08T02:38:55.261Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="PVT-bBBd9NBDeTvKMjPw" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-08T04:32:53.361Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="2vwe473aCQaGn-JnC-XD" version="14.7.6" type="github">
   <diagram id="AyV75isDo_8azT4k6Xjb" name="Page-1">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="EiQ2DiT3cJEXJJtgzBad-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EiQ2DiT3cJEXJJtgzBad-32" target="EiQ2DiT3cJEXJJtgzBad-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EiQ2DiT3cJEXJJtgzBad-32" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="597" y="240" width="153" height="130" as="geometry" />
+        </mxCell>
         <mxCell id="EiQ2DiT3cJEXJJtgzBad-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EiQ2DiT3cJEXJJtgzBad-21" target="EiQ2DiT3cJEXJJtgzBad-24">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -79,11 +85,35 @@
         <mxCell id="EiQ2DiT3cJEXJJtgzBad-20" value="&lt;b&gt;one, two page&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="470" y="350" width="100" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="EiQ2DiT3cJEXJJtgzBad-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EiQ2DiT3cJEXJJtgzBad-24" target="EiQ2DiT3cJEXJJtgzBad-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="EiQ2DiT3cJEXJJtgzBad-24" value="&lt;h1&gt;문제점&lt;/h1&gt;&lt;p&gt;#view_mode_btn 위주로 작동하기 때문에 구분을 해도 제대로 기능 구현이 안됨&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="470" y="30" width="190" height="100" as="geometry" />
         </mxCell>
         <mxCell id="EiQ2DiT3cJEXJJtgzBad-26" value="&lt;b&gt;view_mode_chane&lt;br&gt;ㄴ 가로모드 문제&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="470" y="150" width="120" height="60" as="geometry" />
+          <mxGeometry x="470" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EiQ2DiT3cJEXJJtgzBad-28" value="" style="shape=flexArrow;endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="EiQ2DiT3cJEXJJtgzBad-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="240" as="sourcePoint" />
+            <mxPoint x="700" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EiQ2DiT3cJEXJJtgzBad-29" value="&lt;b&gt;g_twoPageModeBtn&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="600" y="260" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EiQ2DiT3cJEXJJtgzBad-30" value="&lt;b&gt;g_onePageModeBtn&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="600" y="320" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EiQ2DiT3cJEXJJtgzBad-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EiQ2DiT3cJEXJJtgzBad-33" target="EiQ2DiT3cJEXJJtgzBad-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EiQ2DiT3cJEXJJtgzBad-33" value="&lt;b&gt;viewer.js&lt;br&gt;ㄴ 클릭했을 때 어떻게 화면을 구성하게 하고 넘어가게 하는 지가 keypoint&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="597" y="420" width="163" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="EiQ2DiT3cJEXJJtgzBad-35" value="&lt;b&gt;Viewer.aspx/viewPageCnt&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="360" y="420" width="169" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
